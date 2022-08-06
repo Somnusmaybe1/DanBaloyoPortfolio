@@ -22,21 +22,21 @@ hamburger.addEventListener('click', function () {
 });
 // For dark mode toggler
 icon.onclick = function () {
-    document.body.classList.toggle("light-theme");
-    if(document.body.classList.contains("light-theme")){
-        icon.src = "images/dark.png";
-    } else {
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")) {
         icon.src = "images/light.png";
+    } else {
+        icon.src = "images/dark.png";
     }
 }
 
 // For mobile dark mode toggler 
 mobile_icon.onclick = function () {
-    document.body.classList.toggle("light-theme");
-    if(document.body.classList.contains("light-theme")) {
-        mobile_icon.src = "images/dark.png";
-    } else {
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")) {
         mobile_icon.src = "images/light.png";
+    } else {
+        mobile_icon.src = "images/dark.png";
     }
 }
 
