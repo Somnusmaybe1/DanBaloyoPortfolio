@@ -15,10 +15,10 @@
 /* Roots */
 
 :root {
-    /* Dark Mode */
+    /* Light Mode */
     --clr-primary:#0B0B0B;
-    --clr-dark:#b1b0b0;
-    --clr-semi-dark: rgb(214, 214, 214);
+    --clr-dark:rgb(214, 214, 214);;
+    --clr-semi-dark: #bcbcbc;
     --clr-light: #101010;
     --clr-very-dark: rgb(255, 255, 255);
 
@@ -42,9 +42,9 @@
         overflow-x: hidden;
     }
     
-    .light-theme {
+    .dark-theme {
         --clr-primary:rgb(232, 232, 232);
-        --clr-dark:#0B0B0B;
+        --clr-dark:#0B0B0B; 
         --clr-semi-dark: #101010;
         --clr-light: #888888;
         --clr-very-dark: rgb(8, 8, 8);
@@ -229,6 +229,10 @@
     .welcome-section {
         margin-top:50%;
         padding:10px 0;
+    } 
+
+    .welcome-section > h1:first-child > span {
+        animation: rgb 20s infinite alternate;
     }
 
     .welcome-section h1 {
@@ -357,6 +361,47 @@
     display: flex;
     flex-direction: column;
     color:var(--clr-primary);
+}
+
+.bg-details > h1 > span {
+    animation: rgb 20s infinite;
+}
+
+  
+@keyframes rgb {
+    0% {
+        color:#3300FF;
+    } 6% {
+        color:#0057FF;
+    } 12% {
+        color: #FF00F5; 
+    } 18% {
+        color: #FF00F5; 
+    } 24% {
+        color: #FF00F5; 
+    } 32% {
+        color:  #FF008A;
+    } 36% {
+        color: #e252e0;
+    } 42% {
+        color: #fdea96;
+    } 48% {
+        color: #3551a4;
+    } 54% {
+        color: #2c8ec4;
+    } 60% {
+        color: #31cdb0;
+    } 66% {
+        color: #f8c7d5;
+    } 72% {
+        color: #9995ef;
+    } 78% {
+        color: #ffab96;
+    } 86% {
+        color: #ff0f47;
+    } 100% {
+        color: var(--clr-primary);
+    }
 }
 
 .bg-details h2 {
@@ -575,7 +620,11 @@
 
 .proj-deets {
     background-color: var(--clr-semi-dark);
-    padding:0 10px;
+    /* padding:0 10px; */
+}
+
+.proj-deets > * {
+    padding: 0 10px;
 }
 
 .project h2 {
@@ -910,8 +959,11 @@
     
         .proj-deets {
             margin:0 auto;
-            width:48%;
-            padding:20px;
+            width:50%;
+        }
+
+        .proj-deets > * {
+            padding: 0 10px;
         }
     
         .proj-deets h2 {
@@ -982,6 +1034,10 @@
     #mobileld-mode {
         position: relative;
         left:40px;
+    }
+
+    .proj-deets h2 {
+        padding-bottom: 10px;
     }
 }
 /* PC View */
@@ -1173,17 +1229,22 @@
     }
 
     .projects {
-        height: 655vh;
+        height: 560vh;
+    }
+
+    .proj-deets > * {
+        padding: 0 0 0 20px;
     }
 
     .proj-deets p {
-        padding-top:20px;
+        width: 95%;
         font-size:16px;
     }
 
     .btn {
         position: relative;
-        left:80%;
+        left:73%;
+        bottom: 5px;
         color: var(--clr-dark);
     }
 
