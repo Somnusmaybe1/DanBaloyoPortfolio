@@ -584,7 +584,7 @@
 /* Beginning of Projects Page */
 .projects {
     width:100vw;
-    height: 450vh;
+    height: 500vh;
     background-color:var(--clr-very-dark);
     overflow: hidden;
 }
@@ -1229,7 +1229,7 @@
     }
 
     .projects {
-        height: 560vh;
+        height: 580vh;
     }
 
     .proj-deets > * {
@@ -1237,7 +1237,7 @@
     }
 
     .proj-deets p {
-        width: 95%;
+        width: 90%;
         font-size:16px;
     }
 
