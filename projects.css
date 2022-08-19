@@ -482,7 +482,7 @@ nav sup {
     }
 
     .projects {
-        height: 230vh;
+        height: 290vh;
         overflow-y: hidden;
     }
 
@@ -510,10 +510,4 @@ nav sup {
         padding:10px 0px;
         border-top:2px solid var(--clr-primary);
     }
-}
-
-@media all and (max-width: 1205px) {
-   .projects {
-        height: 255vh;
-   }
 }
