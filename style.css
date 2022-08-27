@@ -137,6 +137,7 @@
     #mobileld-mode {
         margin: 0;
         cursor: pointer;
+        pointer-events: none;
     }
 
     .hamburger {
