@@ -87,6 +87,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar {
+    background-color: var(--clr-very-dark);
     position: relative;
     z-index: 100;
 }
@@ -113,7 +114,6 @@ nav {
     align-items:center;
     justify-content: space-between;
     padding: 50px 0;
-    position: fixed;
     z-index: 99;
 } 
 
@@ -133,7 +133,6 @@ nav sup {
 #mobileld-mode {
     margin: 0;
     cursor: pointer;
-    pointer-events: none;
 }
 
 .hamburger {
@@ -363,64 +362,6 @@ nav sup {
         display: none;
     }
 
-    .cursor {
-        width:50px;
-        height: 50px;
-        border: 2px solid var(--clr-primary);
-        border-radius:100%;
-        position: absolute;
-        transition-duration: 400ms;
-        transition-timing-function: ease-out;
-        animation:cursorMagic1 .5s infnite alternate;
-        z-index: 1;
-    }
-
-    .cursor::after {
-        content:"";
-        width: 33px;
-        height: 33px;
-        position: absolute;
-        border: 8px solid var(--clr-light);
-        border-radius:50%;
-        opacity: 0.9;
-        animation: cursorMagic .5s infinite alternate;
-    }
-
-    @keyframes cursorMagic1 {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(.7);
-        }
-    }
-
-    @keyframes cursorMagic {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(.4);
-        }
-    }
-
-    .expand {
-        animation: cursorMagic3 .5s forwards;
-        border: 3px solid var(--clr-primary);
-    }
-
-    @keyframes cursorMagic3 {
-        0% {
-            transform: scale(1);
-        }
-        50% {
-            transform: scale(3);
-        }100% {
-            tranform: scale(1);
-            opacity: 0;
-        }
-    }
-    
     .container {
         max-width: 1000px;
     }
@@ -488,7 +429,7 @@ nav sup {
     }
 
     .projects h1 {
-        margin-top: 150px;
+        margin-top: 1px;
     }
 
     .project-grid {
