@@ -44,7 +44,7 @@
 
 .dark-theme {
     --clr-primary:#0B0B0B;
-    --clr-dark:rgb(214, 214, 214);;
+    --clr-dark:rgb(214, 214, 214);
     --clr-semi-dark: #bcbcbc;
     --clr-light: #101010;
     --clr-very-dark: rgb(255, 255, 255);
