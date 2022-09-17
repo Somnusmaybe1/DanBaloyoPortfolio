@@ -16,11 +16,11 @@
 
 :root {
     /* Light Mode */
-    --clr-primary:#0B0B0B;
-    --clr-dark:rgb(214, 214, 214);;
-    --clr-semi-dark: #bcbcbc;
-    --clr-light: #101010;
-    --clr-very-dark: rgb(255, 255, 255);
+    --clr-primary:rgb(232, 232, 232);
+    --clr-dark:#0B0B0B; 
+    --clr-semi-dark: #101010;
+    --clr-light: #888888;
+    --clr-very-dark: rgb(8, 8, 8);
 
     /* Font Size */
     --head:50px;
@@ -43,11 +43,11 @@
     }
     
     .dark-theme {
-        --clr-primary:rgb(232, 232, 232);
-        --clr-dark:#0B0B0B; 
-        --clr-semi-dark: #101010;
-        --clr-light: #888888;
-        --clr-very-dark: rgb(8, 8, 8);
+        --clr-primary:#0B0B0B;
+        --clr-dark:rgb(214, 214, 214);
+        --clr-semi-dark: #bcbcbc;
+        --clr-light: #101010;
+        --clr-very-dark: rgb(255, 255, 255);
     }
     
     body {
