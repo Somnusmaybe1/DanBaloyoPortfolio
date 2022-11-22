@@ -512,20 +512,11 @@
     text-align: center;
     overflow: hidden;
     padding:20px 0 0 0;
-}
-
-.card-img {
-    width:37%;
-    margin:20px 0px;
-}
-
-.card img:nth-last-child(3) {
-    width:35%;
-}
+} 
 
 .card h1 {
     font-size: 20px;
-    padding:0 20px;
+    padding:50% 20px;
     color:var(--clr-primary);
 }
 
