@@ -472,7 +472,7 @@
 /* Beginning of What Im Into Page */
 .into {
     width:100vw;
-    height:40vh;
+    height:100vh;
     background-color:var(--clr-dark);
     background-repeat: no-repeat;
     background-size: cover;
