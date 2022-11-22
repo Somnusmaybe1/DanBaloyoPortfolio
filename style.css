@@ -472,7 +472,7 @@
 /* Beginning of What Im Into Page */
 .into {
     width:100vw;
-    height:150vh;
+    height:40vh;
     background-color:var(--clr-dark);
     background-repeat: no-repeat;
     background-size: cover;
@@ -483,7 +483,7 @@
 }
 
 .into h2 {
-    padding:0 30px;
+    padding:50px 0 0 0;
     font-size: 25px;
     line-height:20px;
     overflow: hidden;
@@ -506,7 +506,7 @@
     border:1px solid var(--clr-primary);
     border-radius:20px;
     width:95%;
-    height:40vh;
+    height:13vh;
     justify-items: center;
     align-items: center;
     text-align: center;
